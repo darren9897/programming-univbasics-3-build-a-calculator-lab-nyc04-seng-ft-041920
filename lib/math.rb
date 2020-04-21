@@ -18,13 +18,19 @@ def division(num1, num2)
 end
 
 def multiplication(num1, num2)
+  product = num1*num2
+  return product
 
 end
 
 def modulo(num1, num2)
+  ans = num1%num2
+  return ans
 
 end
 
 def square_root(num)
+  sqrt = Math.sqrt(num)
+  return sqrt
 
 end
